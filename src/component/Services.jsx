@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { AiFillThunderbolt } from 'react-icons/ai';
 import { FcMultipleDevices, FcIdea, FcPositiveDynamic } from 'react-icons/fc';

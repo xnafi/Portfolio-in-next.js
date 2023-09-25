@@ -13,10 +13,12 @@ function Testimonial() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-baseline space-y-4 lg:space-y-0 mt-16 lg:mt-28 px-0 lg:px-6">
         <div className="flex flex-col justify-center items-center space-y-4 bg-slate-900 rounded-lg p-3">
-          <img
+          <Image
             src="https://picsum.photos/640"
             className="rounded-full w-1/2"
             alt=""
+            width={640}
+            height={640}
           />
           <div>
             <h2 className="font-bold text-xl space-y-3">John Doe</h2>
@@ -28,10 +30,12 @@ function Testimonial() {
         </div>
 
         <div className="flex flex-col justify-center items-center space-y-4 bg-slate-900 rounded-lg p-3">
-          <img
+          <Image
             src="https://picsum.photos/640"
             className="rounded-full w-1/2"
             alt=""
+            width={640}
+            height={640}
           />
           <div>
             <h2 className="font-bold text-xl space-y-3">Adam Lois</h2>
@@ -43,10 +47,12 @@ function Testimonial() {
         </div>
 
         <div className="flex flex-col justify-center items-center space-y-4 bg-slate-900 rounded-lg p-3 ">
-          <img
+          <Image
             src="https://picsum.photos/640"
             className="rounded-full w-1/2"
             alt=""
+            width={640}
+            height={640}
           />
           <div>
             <h2 className="font-bold text-xl space-y-3">William</h2>
@@ -58,10 +64,12 @@ function Testimonial() {
         </div>
 
         <div className="flex flex-col justify-center items-center space-y-4 bg-slate-900 rounded-lg p-3">
-          <img
+          <Image
             src="https://picsum.photos/640"
             className="rounded-full w-1/2"
             alt=""
+            width={640}
+            height={640}
           />
           <div>
             <h2 className="font-bold text-xl space-y-3">Thomas</h2>
