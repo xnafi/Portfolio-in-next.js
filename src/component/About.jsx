@@ -64,16 +64,9 @@ function About() {
             </div>
           </div>
 
-          <div className="flex justify-center text-justify xl:px-20 px-2 text-sm lg:text-lg">
+          <div className="flex justify-center text-left xl:px-20 px-2 text-sm lg:text-lg">
             <span>
-              Experienced junior React Front-End Developer with 1 year of
-              hands-on coding experience. Dedicated to crafting polished and
-              responsive user interfaces using React, JavaScript, and front-end
-              technologies. Seeking a dynamic team where I can apply my skills
-              to create exceptional web applications, collaborate on challenging
-              projects, and continue to evolve as a front-end developer.
-              Passionate about delivering high-quality, user-centric experiences
-              that drive engagement and growth.
+              I am Forhad Khan, a React and Next.js frontend developer with three years of learning experience and professional work at two companies, Remostarts and Al-Jaami. My technical skills include proficiency in Framer Motion, React Hook Form, Redux, HTML, CSS, Bootstrap, TailwindCSS, SCSS/SASS, and JavaScript. I am well-versed in using Git and GitHub for version control and have experience deploying applications using Netlify and Vercel. My expertise extends to working with TypeScript, ensuring responsive design, and utilizing Firebase and MongoDB for backend services. I am currently expanding my knowledge by learning machine learning, aiming to integrate this advanced technology into my development projects.
             </span>
           </div>
           <div className=" justify-start flex xl:px-20">
