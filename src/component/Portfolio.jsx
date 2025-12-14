@@ -36,7 +36,7 @@ function Portfolio() {
               Fleet Stack – Super Admin Dashboard
             </h2>
 
-            <ul className="text-xs text-gray-400 space-y-1 list-disc list-inside">
+            <ul className="text-xs text-gray-400 space-y-1">
               <li>
                 Built a large-scale fleet management admin dashboard using
                 Next.js 16 and React 19.
@@ -67,7 +67,7 @@ function Portfolio() {
               <span className="px-2 py-1 bg-slate-700 rounded">Leaflet</span>
             </div>
 
-            <div className="flex gap-4 text-xs mt-3">
+            <div className="flex gap-4 text-xs mt-3 justify-start items-end">
               <a
                 target="_blank"
                 href="https://fleet-stack.vercel.app/super-admin"
@@ -85,7 +85,7 @@ function Portfolio() {
           <div className="p-5 text-left space-y-4">
             <h2 className="font-bold text-lg">E-Real State</h2>
 
-            <ul className="text-xs text-gray-400 space-y-1 list-disc list-inside">
+            <ul className="text-xs text-gray-400 space-y-1">
               <li>Developed a dynamic real-estate platform using Next.js</li>
               <li>Implemented advanced property filtering and analytics</li>
               <li>Integrated Framer Motion animations for better UX</li>
@@ -100,7 +100,7 @@ function Portfolio() {
               <span className="px-2 py-1 bg-slate-700 rounded">Recharts</span>
             </div>
 
-            <div className="flex gap-4 text-xs mt-3">
+            <div className="flex gap-4 text-xs mt-3 justify-start items-end">
               <a
                 target="_blank"
                 href="https://e-realstate.vercel.app"
@@ -120,7 +120,7 @@ function Portfolio() {
               scroll-animation-framer-motion
             </h2>
 
-            <ul className="text-xs text-gray-400 space-y-1 list-disc list-inside">
+            <ul className="text-xs text-gray-400 space-y-1">
               <li>Built a reusable scroll-triggered animation library</li>
               <li>Developed using TypeScript, Vite, and Rollup</li>
               <li>Supports fade, slide, and zoom animation presets</li>
@@ -153,7 +153,7 @@ function Portfolio() {
           <div className="p-5 text-left space-y-4">
             <h2 className="font-bold text-lg">EWS – Corporate Website</h2>
 
-            <ul className="text-xs text-gray-400 space-y-1 list-disc list-inside">
+            <ul className="text-xs text-gray-400 space-y-1">
               <li>Developed a modern corporate website using Next.js</li>
               <li>Implemented scroll-triggered animations for navigation</li>
               <li>Built responsive branding and media sections</li>
@@ -186,7 +186,7 @@ function Portfolio() {
           <div className="p-5 text-left space-y-4">
             <h2 className="font-bold text-lg">Lambo Showcase</h2>
 
-            <ul className="text-xs text-gray-400 space-y-1 list-disc list-inside">
+            <ul className="text-xs text-gray-400 space-y-1">
               <li>Built an immersive automotive showcase concept</li>
               <li>Implemented custom particle effects and page transitions</li>
               <li>Integrated Google Maps API for dealership locations</li>
@@ -212,15 +212,11 @@ function Portfolio() {
         </div>
         {/* Phone Garage */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-          <Image
-            src={work6}
-            alt="Phone Garage project"
-            className="w-full"
-          />
+          <Image src={work6} alt="Phone Garage project" className="w-full" />
           <div className="p-5 text-left space-y-4">
             <h2 className="font-bold text-lg">Phone Garage</h2>
 
-            <ul className="text-xs text-gray-400 space-y-1 list-disc list-inside">
+            <ul className="text-xs text-gray-400 space-y-1">
               <li>Full-stack phone sales application with Firebase backend</li>
               <li>Built authentication, protected routes, and role guards</li>
               <li>CRUD operations for products and order management</li>
