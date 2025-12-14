@@ -5,7 +5,7 @@ import Footer from "@/component/Footer";
 import Header from "@/component/Header";
 import Nav from "@/component/Nav";
 import Portfolio from "@/component/Portfolio";
-import Services from "@/component/Services";
+import JobExperience from "@/component/Services";
 import Testimonial from "@/component/Testimonial";
 import React from "react";
 
@@ -16,7 +16,7 @@ export default function Home() {
       <Nav />
       <About />
       <Experience />
-      <Services />
+      <JobExperience />
       <Portfolio />
       <Testimonial />
       <Contact />
