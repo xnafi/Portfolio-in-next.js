@@ -24,6 +24,16 @@ function JobExperience() {
             Front-End Developer · Remote · Jan 2025 – Present
           </span>
 
+          {/* Website link */}
+          <a
+            href="https://www.elegantwebstudio.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-xs text-slate-300 hover:text-white underline underline-offset-4"
+          >
+            Visit Website →
+          </a>
+
           <ul className="mt-4 space-y-2 text-xs lg:text-sm text-gray-300 list-disc list-inside">
             <li>
               Spearheaded scalable React & Next.js architectures across multiple
@@ -51,6 +61,16 @@ function JobExperience() {
             Front-End Developer (Contract) · Remote · Apr 2023 – Jul 2023
           </span>
 
+          {/* Website link */}
+          <a
+            href="https://www.aljaami.co.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-xs text-slate-300 hover:text-white underline underline-offset-4"
+          >
+            Visit Website →
+          </a>
+
           <ul className="mt-4 space-y-2 text-xs lg:text-sm text-gray-300 list-disc list-inside">
             <li>
               Delivered <span className="font-semibold">4+</span> fully
@@ -74,6 +94,16 @@ function JobExperience() {
           <span className="text-xs lg:text-sm text-gray-400 block mt-1">
             Front-End Intern · Remote · Dec 2022 – Mar 2023
           </span>
+
+          {/* Website link */}
+          <a
+            href="https://remostarts.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-xs text-slate-300 hover:text-white underline underline-offset-4"
+          >
+            Visit Website →
+          </a>
 
           <ul className="mt-4 space-y-2 text-xs lg:text-sm text-gray-300 list-disc list-inside">
             <li>Developed dynamic dashboards and role-based admin portals.</li>

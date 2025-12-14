@@ -32,7 +32,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="w-100 justify-center h-100 flex flex-col text-center mt-20 mb-10 lg:mb-20"
+      className="w-100 justify-center h-100 flex flex-col text-center mt-10 lg:mb-10"
     >
       <div className="mt-10 lg:mt-10">
         <h4 className="text-xs">Get In Touch</h4>

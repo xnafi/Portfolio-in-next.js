@@ -29,7 +29,7 @@ function Experience() {
       </p>
 
       {/* Cards */}
-      <div className="lg:mt-20 mt-5 flex flex-row justify-evenly gap-3">
+      <div className="lg:mt-10 mt-5 flex flex-row justify-evenly gap-3">
         <div className="inline-flex flex-col bg-[#0F172A] w-screen p-2 lg:p-3 lg:w-[90%] rounded-xl">
           <h2 className="mt-5 mb-8 font-bold">
             Frontend & Supporting Backend Development

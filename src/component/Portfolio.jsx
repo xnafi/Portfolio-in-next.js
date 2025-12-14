@@ -15,7 +15,7 @@ function Portfolio() {
       id="portfolio"
     >
       {/* Section Heading */}
-      <div className="mb-20">
+      <div className="mb-10">
         <h4 className="text-xs tracking-widest uppercase text-gray-400">
           My Recent Work
         </h4>
