@@ -1,9 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Moo+Lah+Lah&family=Oswald:wght@300&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@300;400;500;600&family=Qwitcher+Grypen:wght@700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Moo+Lah+Lah&family=Oswald:wght@300&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@300;400;500;600&family=Qwitcher+Grypen:wght@700&display=swap');
-
 
 /* active Nav */
 
