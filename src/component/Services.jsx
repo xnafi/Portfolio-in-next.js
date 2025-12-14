@@ -16,7 +16,7 @@ function JobExperience() {
       </div>
 
       {/* Experience List */}
-      <div className="flex flex-col w-full lg:mt-24 mt-16 space-y-14 px-1 lg:px-24">
+      <div className="flex flex-col w-full lg:mt-10 mt-10 space-y-6 px-1 lg:px-24">
         {/* Elegant Web Studio */}
         <div className="bg-slate-900/60 rounded-xl p-6 lg:p-8 text-left shadow-md">
           <h2 className="text-lg font-bold">Elegant Web Studio</h2>
