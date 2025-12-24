@@ -8,7 +8,7 @@ function Experience() {
 
   return (
     <section
-      id="experience"
+      id="technical_expertise"
       className="w-100 justify-center h-100 flex flex-col text-center mt-20"
     >
       {/* Heading */}

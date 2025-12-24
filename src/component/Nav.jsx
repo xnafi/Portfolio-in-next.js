@@ -36,20 +36,20 @@ function Nav() {
           <FaUserAlt />
         </a>
         <a
-          href="#experiance"
+          href="#technical_expertise"
           className={`${
-            active === "#experiance" ? "active:bg-orange-500" : ""
+            active === "#technical_expertise" ? "active:bg-orange-500" : ""
           } hover:bg-orange-700 hover:rounded-full p-2 `}
-          onClick={() => isactive("#experiance")}
+          onClick={() => isactive("#technical_expertise")}
         >
           <FaPlaceOfWorship />
         </a>
         <a
-          href="#services"
+          href="#experience"
           className={`${
-            active === "#services" ? "active:bg-orange-500" : ""
+            active === "#experience" ? "active:bg-orange-500" : ""
           } hover:bg-orange-700 hover:rounded-full p-2 `}
-          onClick={() => isactive("#services")}
+          onClick={() => isactive("#experience")}
         >
           <MdHomeRepairService />
         </a>
