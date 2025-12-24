@@ -11,8 +11,8 @@ import work6 from "./assets/work6.png";
 function Portfolio() {
   return (
     <section
-      className="w-[90%] mx-auto flex flex-col text-center mt-10"
-      id="portfolio"
+      className="w-full mx-auto flex flex-col text-center mt-10 max-w-[1440px] px-4 lg:px[2rem]"
+      id="projects"
     >
       {/* Section Heading */}
       <div className="mb-10">

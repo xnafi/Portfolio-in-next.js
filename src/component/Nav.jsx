@@ -8,7 +8,7 @@ import {
   FaUserAlt,
 } from "react-icons/fa";
 import { MdHomeRepairService } from "react-icons/md";
-import { AiFillMessage } from "react-icons/ai";
+import { AiFillMessage, AiFillProject } from "react-icons/ai";
 
 function Nav() {
   const [active, isactive] = useState("");
@@ -16,7 +16,7 @@ function Nav() {
   return (
     <>
       {/********************************Floating Nav Section **************************************/}
-      <nav className=" fixed flex flex-initial bg-[rgba(0,0,0,0.3)]  p-2 lg:opacity-20 xl:opacity-20 md:opacity-20 hover:opacity-100  w-max space-x-10 z-50  bottom-2 left-[50%] transform translate-x-[-50%] right-0 rounded-lg">
+      <nav className="fixed flex flex-initial bg-[rgba(0,0,0,0.3)]  p-2 lg:opacity-20 xl:opacity-20 md:opacity-20 hover:opacity-100  w-max space-x-5 md:space-x-10 z-50  bottom-2 left-[50%] transform translate-x-[-50%] right-0 rounded-lg">
         <a
           href="#"
           className={`${
@@ -52,6 +52,15 @@ function Nav() {
           onClick={() => isactive("#experience")}
         >
           <MdHomeRepairService />
+        </a>
+        <a
+          href="#projects"
+          className={`${
+            active === "#projects" ? "active:bg-orange-500" : ""
+          } hover:bg-orange-700 hover:rounded-full p-2 `}
+          onClick={() => isactive("#projects")}
+        >
+          <AiFillProject />
         </a>
         <a
           href="#contact"
