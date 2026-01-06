@@ -71,25 +71,27 @@ function About() {
           {/* About Description */}
           <div className="flex justify-center text-left xl:px-20 px-2 text-sm lg:text-md">
             <span>
-              I am Forhad Khan, a Front-End Developer with over 4 years of
-              hands-on experience building scalable, high-performance web
-              applications. I specialize in React, Next.js, and TypeScript,
-              translating complex UI/UX designs into pixel-perfect, reusable,
-              and accessible components.
-              <br />
-              <br />
-              I have professional experience working with remote teams at
-              Elegant Web Studio, Al Jaami Technologies, and Remostarts, where I
-              contributed to modular architectures, shared component libraries,
-              performance optimization (up to 35% faster load times), and
-              animation-driven user experiences.
-              <br />
-              <br />
-              My technical expertise includes Tailwind CSS, SASS, Redux Toolkit,
-              TanStack Query, Framer Motion, GSAP, React Hook Form, Firebase,
-              Stripe integration, and modern SEO practices in Next.js. I am
-              passionate about clean architecture, performance, and building
-              intuitive digital products.
+              I’m Forhad Khan, a Frontend Developer with strong production-level experience building
+scalable and high-performance web applications. <br/>
+
+I specialize in React, Next.js, and TypeScript, translating complex UI/UX designs into
+pixel-perfect, reusable, and accessible components. My work focuses on clean architecture,
+component-driven development, and performance optimization.<br/>
+
+I’ve worked with remote teams at Elegant Web Studio, Al Jaami Technologies, and Remostarts,
+contributing to modular frontend architectures, shared component libraries, and
+animation-driven user experiences. Through performance-focused improvements, I’ve helped
+applications achieve up to 35% faster load times.<br/>
+
+My technical toolkit includes React, Next.js, TypeScript, Tailwind CSS, SASS, Redux Toolkit,
+TanStack Query, Framer Motion, GSAP, React Hook Form, Firebase, Stripe integration, and
+SEO-focused Next.js development.<br/>
+
+I enjoy building intuitive digital products that balance design accuracy, performance,
+and long-term scalability.<br/>
+
+🔹 Open to Frontend / React / Next.js opportunities
+
             </span>
           </div>
 
