@@ -72,25 +72,25 @@ function About() {
           <div className="flex justify-center text-left xl:px-20 px-2 text-sm lg:text-md">
             <span>
               I’m Forhad Khan, a Frontend Developer with strong production-level experience building
-scalable and high-performance web applications. <br/>
+scalable and high-performance web applications. <br/> <br/>
 
 I specialize in React, Next.js, and TypeScript, translating complex UI/UX designs into
 pixel-perfect, reusable, and accessible components. My work focuses on clean architecture,
-component-driven development, and performance optimization.<br/>
+component-driven development, and performance optimization.<br/> <br/>
 
 I’ve worked with remote teams at Elegant Web Studio, Al Jaami Technologies, and Remostarts,
 contributing to modular frontend architectures, shared component libraries, and
 animation-driven user experiences. Through performance-focused improvements, I’ve helped
-applications achieve up to 35% faster load times.<br/>
+applications achieve up to 35% faster load times.<br/> <br/>
 
 My technical toolkit includes React, Next.js, TypeScript, Tailwind CSS, SASS, Redux Toolkit,
 TanStack Query, Framer Motion, GSAP, React Hook Form, Firebase, Stripe integration, and
-SEO-focused Next.js development.<br/>
+SEO-focused Next.js development.<br/> <br/>
 
 I enjoy building intuitive digital products that balance design accuracy, performance,
-and long-term scalability.<br/>
+and long-term scalability.<br/><br/>
 
-🔹 Open to Frontend / React / Next.js opportunities
+Open to Frontend / React / Next.js opportunities
 
             </span>
           </div>
