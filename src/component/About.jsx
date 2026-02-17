@@ -71,8 +71,7 @@ function About() {
           {/* About Description */}
           <div className="flex justify-center text-left xl:px-20 px-2 text-sm lg:text-md">
             <span>
-              I’m Forhad Khan, a Frontend Developer with strong production-level experience building
-scalable and high-performance web applications. <br/> <br/>
+              I’m Forhad Khan,I build scalable SaaS dashboards and product-focused web applications with clean architecture and performance-first design. <br/> <br/>
 
 I specialize in React, Next.js, and TypeScript, translating complex UI/UX designs into
 pixel-perfect, reusable, and accessible components. My work focuses on clean architecture,
