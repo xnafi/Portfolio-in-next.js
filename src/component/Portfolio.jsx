@@ -151,7 +151,7 @@ function Portfolio() {
 
         {/* Daktar Khana */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-          <Image src={work3} alt="Daktar Khana - Clinic Queue System" className="w-full" />
+          <Image src={work4} alt="Daktar Khana - Clinic Queue System" className="w-full" />
           <div className="p-5 text-left space-y-4">
             <h2 className="font-bold text-lg">Daktar Khana – Clinic Queue System</h2>
 
