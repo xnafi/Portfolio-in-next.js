@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 
 import work1 from "./assets/work1.png";
-import work2 from "./assets/work2.png";
+import work2 from "./assets/maczen.png";
 import work3 from "./assets/work3.png";
-import work4 from "./assets/work4.png";
-import work5 from "./assets/work5.png";
-import work6 from "./assets/work6.png";
+import work4 from "./assets/doctor.png";
+import work5 from "./assets/work4.png";
+import work6 from "./assets/work5.png";
 
 function Portfolio() {
   return (
@@ -27,7 +27,7 @@ function Portfolio() {
         {/* Fleet Stack – Super Admin */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
           <Image
-            src={work5}
+            src={work1}
             alt="Fleet Stack Admin Dashboard"
             className="w-full"
           />
@@ -79,31 +79,33 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        {/* E-Real State */}
+
+        {/* MacZen BD */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-          <Image src={work1} alt="E-Real State project" className="w-full" />
+          <Image src={work2} alt="MacZen BD - Apple Premium Retail Platform" className="w-full" />
           <div className="p-5 text-left space-y-4">
-            <h2 className="font-bold text-lg">E-Real State</h2>
+            <h2 className="font-bold text-lg">MacZen BD – Apple Premium Retail</h2>
 
             <ul className="text-xs text-gray-400 space-y-1">
-              <li>Developed a dynamic real-estate platform using Next.js</li>
-              <li>Implemented advanced property filtering and analytics</li>
-              <li>Integrated Framer Motion animations for better UX</li>
-              <li>Increased user engagement on listings by ~20%</li>
+              <li>Production e-commerce platform for a premium Apple retailer — Next.js storefront, admin dashboard, and React Native mobile app.</li>
+              <li>Storefront includes product variant selection (colour, storage, configuration), cart and checkout flow, order tracking, EMI calculator, and Cloudinary image delivery.</li>
+              <li>Admin dashboard supports full product CRUD with image upload, order processing, blog editor, and promotional offer management.</li>
+              <li>React Native mobile app (Expo SDK 53) with in-app chatbot connected to live product API for real-time pricing and stock availability.</li>
             </ul>
 
             <div className="flex flex-wrap gap-2 text-[11px] text-gray-300">
               <span className="px-2 py-1 bg-slate-700 rounded">Next.js</span>
-              <span className="px-2 py-1 bg-slate-700 rounded">
-                Framer Motion
-              </span>
-              <span className="px-2 py-1 bg-slate-700 rounded">Recharts</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">React Native</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">Expo</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">Prisma</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">PostgreSQL</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">TanStack Query</span>
             </div>
 
-            <div className="flex gap-4 text-xs mt-3 justify-start items-end">
+            <div className="flex gap-4 text-xs mt-3">
               <a
                 target="_blank"
-                href="https://e-realstate.vercel.app"
+                href="https://maczenbd.com"
                 className="hover:underline"
               >
                 Live Demo
@@ -114,7 +116,7 @@ function Portfolio() {
 
         {/* scroll-animation-framer-motion */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-          <Image src={work2} alt="Scroll animation NPM" className="w-full" />
+          <Image src={work3} alt="Scroll animation NPM" className="w-full" />
           <div className="p-5 text-left space-y-4">
             <h2 className="font-bold text-lg">
               scroll-animation-framer-motion
@@ -147,31 +149,31 @@ function Portfolio() {
           </div>
         </div>
 
-        {/* EWS Corporate */}
+        {/* Daktar Khana */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-          <Image src={work3} alt="EWS Corporate Website" className="w-full" />
+          <Image src={work3} alt="Daktar Khana - Clinic Queue System" className="w-full" />
           <div className="p-5 text-left space-y-4">
-            <h2 className="font-bold text-lg">EWS – Corporate Website</h2>
+            <h2 className="font-bold text-lg">Daktar Khana – Clinic Queue System</h2>
 
             <ul className="text-xs text-gray-400 space-y-1">
-              <li>Developed a modern corporate website using Next.js</li>
-              <li>Implemented scroll-triggered animations for navigation</li>
-              <li>Built responsive branding and media sections</li>
-              <li>Optimized for SEO and performance best practices</li>
+              <li>Built a clinic queue management portfolio app: online appointment booking with serial number assignment, real-time waiting room display board, and multi-role doctor/compounder dashboard.</li>
+              <li>Implemented WebSocket-based real-time sync so queue updates from the dashboard instantly reflect on all connected screens with current and next patient names.</li>
+              <li>Built a device-based rate limiting system (one appointment per device per day) and ordered queue engine to prevent duplicate or out-of-order entries.</li>
+              <li>Multi-role RBAC supporting Doctor, Compounder, and Patient roles with isolated views and permissions.</li>
             </ul>
 
             <div className="flex flex-wrap gap-2 text-[11px] text-gray-300">
               <span className="px-2 py-1 bg-slate-700 rounded">Next.js</span>
-              <span className="px-2 py-1 bg-slate-700 rounded">
-                Tailwind CSS
-              </span>
-              <span className="px-2 py-1 bg-slate-700 rounded">SEO</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">WebSocket</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">Prisma</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">PostgreSQL</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">RBAC</span>
             </div>
 
             <div className="flex gap-4 text-xs mt-3">
               <a
                 target="_blank"
-                href="https://corporate-2-0.vercel.app"
+                href="https://doctor-tirthankar.vercel.app"
                 className="hover:underline"
               >
                 Live Demo
@@ -182,7 +184,7 @@ function Portfolio() {
 
         {/* Lambo Showcase */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-          <Image src={work4} alt="Lambo Showcase" className="w-full" />
+          <Image src={work5} alt="Lambo Showcase" className="w-full" />
           <div className="p-5 text-left space-y-4">
             <h2 className="font-bold text-lg">Lambo Showcase</h2>
 
@@ -210,48 +212,35 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        {/* Phone Garage */}
+
+        {/* E-Real State */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-          <Image src={work6} alt="Phone Garage project" className="w-full" />
+          <Image src={work6} alt="E-Real State project" className="w-full" />
           <div className="p-5 text-left space-y-4">
-            <h2 className="font-bold text-lg">Phone Garage</h2>
+            <h2 className="font-bold text-lg">E-Real State</h2>
 
             <ul className="text-xs text-gray-400 space-y-1">
-              <li>Full-stack phone sales application with Firebase backend</li>
-              <li>Built authentication, protected routes, and role guards</li>
-              <li>CRUD operations for products and order management</li>
-              <li>Responsive layout optimized for mobile and desktop</li>
+              <li>Developed a dynamic real-estate platform using Next.js</li>
+              <li>Implemented advanced property filtering and analytics</li>
+              <li>Integrated Framer Motion animations for better UX</li>
+              <li>Increased user engagement on listings by ~20%</li>
             </ul>
 
             <div className="flex flex-wrap gap-2 text-[11px] text-gray-300">
-              <span className="px-2 py-1 bg-slate-700 rounded">React</span>
-              <span className="px-2 py-1 bg-slate-700 rounded">Firebase</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">Next.js</span>
               <span className="px-2 py-1 bg-slate-700 rounded">
-                Responsive UI
+                Framer Motion
               </span>
+              <span className="px-2 py-1 bg-slate-700 rounded">Recharts</span>
             </div>
 
-            <div className="flex gap-4 text-xs mt-3">
+            <div className="flex gap-4 text-xs mt-3 justify-start items-end">
               <a
                 target="_blank"
-                href="https://phone-garage-fc937.web.app/"
+                href="https://e-realstate.vercel.app"
                 className="hover:underline"
               >
                 Live Demo
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/xnafi/Phone-garage-client"
-                className="hover:underline"
-              >
-                GitHub Client
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/xnafi/Phone-garage-server"
-                className="hover:underline"
-              >
-                GitHub Server
               </a>
             </div>
           </div>
