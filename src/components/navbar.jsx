@@ -6,6 +6,7 @@ import { Menu, X } from "lucide-react";
 
 const links = [
   { label: "Work", href: "#work" },
+  { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
@@ -16,7 +17,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const ids = ["work", "experience", "about", "contact"];
+    const ids = ["work", "skills", "experience", "about", "contact"];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {

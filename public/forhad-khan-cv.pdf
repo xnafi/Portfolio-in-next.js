@@ -1,0 +1,97 @@
+
+
+Forhad Khan 
+Frontend Engineer  |  React.js · Next.js · TypeScript · React Native 
+Sylhet, Bangladesh  ·  +880 1762-057784  ·  forhadkhan2011@gmail.com  ·  linkedin.com/in/forhadkhandev 
+github.com/xnafi  ·  forhadkhandev.vercel.app  ·  npmjs.com/package/scroll-animation-framer-motion  ·  Open to Remote Worldwide 
+ 
+Professional Summary 
+ 
+Frontend Engineer with 3+ years of experience shipping production web and mobile applications for real clients. Built and 
+deployed a full-scale e-commerce platform for a premium Apple retailer  storefront, admin dashboard, and a cross-platform 
+React Native app owned end-to-end from architecture through production. Designed a real-time clinic queue management 
+system using WebSocket and Next.js, live in an active clinic environment. Consistent track record of delivering clean, 
+maintainable UI across React and React Native with a focus on component architecture, state management, and frontend 
+performance. 
+Core Competencies 
+ 
+Frontend: React.js, Next.js (App Router), TypeScript, JavaScript (ES6+), Tailwind CSS, Shadcn/ui, Radix UI, Material UI, Framer 
+Motion, GSAP, Component Architecture, Performance Optimisation, SEO, Accessibility (a11y) 
+React Native & Mobile: React Native, Expo (SDK 53), Expo Router, NativeWind, React Native Reanimated, EAS Build, Android 
+& iOS deployment 
+State & Data: Redux Toolkit, TanStack Query (React Query), Zustand, React Hook Form, Zod, AsyncStorage 
+Backend (Working Knowledge): Node.js, Prisma ORM, PostgreSQL, WebSocket, REST APIs, JWT Auth, Cloudinary 
+Tools: Git, GitHub, Vercel, Chrome DevTools, Figma, Agile / Scrum 
+Professional Experience 
+ 
+Elegant Web Studio  (elegantwebstudio.dev) Remote 
+Frontend EngineerJanuary 2025 – Present 
+• Develop and maintain React.js and Next.js applications across multiple client projects, owning components from design 
+handoff through production deployment. 
+• Built a shared UI component library — buttons, tables, dialogs, and forms — using Shadcn/ui and Radix UI, 
+standardising design patterns and reducing duplicated UI work across projects. 
+• Implemented Role-Based Access Control (RBAC) interfaces and admin dashboard layouts supporting multi-level user 
+permission systems for client-facing products. 
+• Participate in code reviews, flagging architectural issues and maintaining consistent coding standards across the team. 
+ 
+Al Jaami Technologies  (aljaami.co.uk) Remote 
+Frontend Developer (Contract)April 2023 – December 2024 
+• Delivered 4 production websites using React.js and modern CSS frameworks, handling requirements, implementation, 
+and deployment for each project. 
+• Improved page performance on legacy codebases by applying lazy loading, component-level code splitting, and Next.js 
+image and font optimisation. 
+• Integrated Framer Motion and GSAP for scroll-triggered and page-transition animations across all delivered projects. 
+• Post-contract: continued delivering freelance work — admin dashboards, reusable component systems, and Next.js 
+web applications for independent clients. 
+ 
+Remostarts  (remostarts.com) Remote 
+Frontend Developer (Intern)December 2022 – March 2023 
+• Built admin dashboards and role-based portal UIs for internal tools using React.js. 
+
+• Implemented form validation using React Hook Form and Zod, covering both field-level and schema-level validation 
+requirements. 
+• Contributed to sprint releases in an Agile/Scrum team, submitting pull requests and attending daily stand-ups. 
+ 
+Projects 
+ 
+MacZen BD  |  Apple Premium Retail Platform | maczenbd.com 
+• Designed and built a production e-commerce platform for a premium Apple retailer in Bangladesh  covering a Next.js 
+storefront, admin dashboard, and a React Native mobile application serving real customers. 
+• Storefront includes product variant selection (colour, storage, configuration), cart and checkout flow, order tracking, 
+EMI calculator, and Cloudinary-powered image delivery  built for scale and maintainability. 
+• Admin dashboard supports full product management (CRUD with image upload), order processing, blog editor, and 
+promotional offer management  all connected to a Prisma and PostgreSQL backend. 
+• React Native mobile app (Expo SDK 53) built with Expo Router, TanStack Query, Zustand, NativeWind, and Reanimated  
+released for Android and iOS via EAS Build. Includes an in-app chatbot connected to the live product API, enabling 
+customers to query real-time pricing and stock availability. 
+• Sole developer: responsible for architecture, implementation, deployment, and ongoing maintenance across all three 
+surfaces. 
+ 
+Daktar Khana  |  Real-Time Clinic Queue System | doctor-tirthankar.vercel.app 
+• Built a production clinic management system: online appointment booking with serial number assignment, a real-time 
+waiting room display board, and a multi-role doctor and compounder dashboard  currently live in an active clinic. 
+• Implemented WebSocket-based real-time sync so that when a doctor advances the queue from the dashboard, all 
+connected screens update instantly with the current and next patient names. 
+• Built a device-based rate limiting system (one appointment per device per day) and an ordered queue engine to 
+prevent duplicate or out-of-order entries. 
+• Multi-role RBAC supports three distinct roles  Doctor, Compounder, and Patient  each with isolated views and 
+permissions. Stack: Next.js, TypeScript, Prisma, PostgreSQL, WebSocket, Vercel. 
+ 
+scroll-animation-framer-motion  |  Open Source NPM Package | npmjs.com/package/scroll-animation-framer-motion 
+• Published a TypeScript utility package delivering scroll-triggered animations (fade, slide, zoom) for React applications, 
+built on Framer Motion. 
+• Reached 1,200+ downloads within 6 months of release, with 100% automated test coverage maintained across all 
+version updates. 
+• Designed a minimal prop-based API requiring minimal configuration  built for developer adoption and ease of 
+integration. 
+ 
+Fleet Stack  |  Multi-Tenant Fleet Management Super Admin Dashboard | fleet-stack.vercel.app/super-admin 
+• Built a Super Admin dashboard providing centralised oversight of administrators, vehicles, users, and license allocation 
+across all managed accounts in a multi-tenant fleet platform. 
+• Implemented a live operations overview displaying real-time vehicle status breakdown (Running, Stopped, Inactive, No 
+Data) alongside recent vehicle activity, transaction history, and user activity feed. 
+• Designed a notification and audit panel surfacing system-level alerts (offline devices, license quota warnings, 
+maintenance schedules) and per-user action logs. 
+• Built key metric cards and an Adoption & Growth chart with 3M, 6M, 12M, and All-time views — using Shadcn/ui, Radix 
+UI, ApexCharts, and Recharts. 
+ 

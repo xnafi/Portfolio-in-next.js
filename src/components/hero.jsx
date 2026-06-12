@@ -93,6 +93,9 @@ export default function Hero() {
           </a>
           <a
             href="/forhad-khan-cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
             className="rounded-lg border border-default px-7 py-3 text-[15px] text-text-secondary transition-all duration-200 hover:border-hover hover:text-text-primary"
           >
             Download CV
