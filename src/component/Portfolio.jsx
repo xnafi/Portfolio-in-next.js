@@ -82,24 +82,49 @@ function Portfolio() {
 
         {/* MacZen BD */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-          <Image src={work2} alt="MacZen BD - Apple Premium Retail Platform" className="w-full" />
+          <Image
+            src={work2}
+            alt="MacZen BD - Apple Premium Retail Platform"
+            className="w-full"
+          />
           <div className="p-5 text-left space-y-4">
-            <h2 className="font-bold text-lg">MacZen BD – Apple Premium Retail</h2>
+            <h2 className="font-bold text-lg">
+              MacZen BD – Apple Premium Retail
+            </h2>
 
             <ul className="text-xs text-gray-400 space-y-1">
-              <li>Production e-commerce platform for a premium Apple retailer — Next.js storefront, admin dashboard, and React Native mobile app.</li>
-              <li>Storefront includes product variant selection (colour, storage, configuration), cart and checkout flow, order tracking, EMI calculator, and Cloudinary image delivery.</li>
-              <li>Admin dashboard supports full product CRUD with image upload, order processing, blog editor, and promotional offer management.</li>
-              <li>React Native mobile app (Expo SDK 53) with in-app chatbot connected to live product API for real-time pricing and stock availability.</li>
+              <li>
+                Production e-commerce platform for a premium Apple retailer —
+                Next.js storefront, admin dashboard, and React Native mobile
+                app.
+              </li>
+              <li>
+                Storefront includes product variant selection (colour, storage,
+                configuration), cart and checkout flow, order tracking, EMI
+                calculator, and Cloudinary image delivery.
+              </li>
+              <li>
+                Admin dashboard supports full product CRUD with image upload,
+                order processing, blog editor, and promotional offer management.
+              </li>
+              <li>
+                React Native mobile app (Expo SDK 53) with in-app chatbot
+                connected to live product API for real-time pricing and stock
+                availability.
+              </li>
             </ul>
 
             <div className="flex flex-wrap gap-2 text-[11px] text-gray-300">
               <span className="px-2 py-1 bg-slate-700 rounded">Next.js</span>
-              <span className="px-2 py-1 bg-slate-700 rounded">React Native</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">
+                React Native
+              </span>
               <span className="px-2 py-1 bg-slate-700 rounded">Expo</span>
               <span className="px-2 py-1 bg-slate-700 rounded">Prisma</span>
               <span className="px-2 py-1 bg-slate-700 rounded">PostgreSQL</span>
-              <span className="px-2 py-1 bg-slate-700 rounded">TanStack Query</span>
+              <span className="px-2 py-1 bg-slate-700 rounded">
+                TanStack Query
+              </span>
             </div>
 
             <div className="flex gap-4 text-xs mt-3">
@@ -151,15 +176,35 @@ function Portfolio() {
 
         {/* Daktar Khana */}
         <div className="group bg-slate-900/60 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-          <Image src={work4} alt="Daktar Khana - Clinic Queue System" className="w-full" />
+          <Image
+            src={work4}
+            alt="Daktar Khana - Clinic Queue System"
+            className="w-full"
+          />
           <div className="p-5 text-left space-y-4">
-            <h2 className="font-bold text-lg">Daktar Khana – Clinic Queue System</h2>
+            <h2 className="font-bold text-lg">
+              Daktar Khana – Clinic Queue System
+            </h2>
 
             <ul className="text-xs text-gray-400 space-y-1">
-              <li>Built a clinic queue management portfolio app: online appointment booking with serial number assignment, real-time waiting room display board, and multi-role doctor/compounder dashboard.</li>
-              <li>Implemented WebSocket-based real-time sync so queue updates from the dashboard instantly reflect on all connected screens with current and next patient names.</li>
-              <li>Built a device-based rate limiting system (one appointment per device per day) and ordered queue engine to prevent duplicate or out-of-order entries.</li>
-              <li>Multi-role RBAC supporting Doctor, Compounder, and Patient roles with isolated views and permissions.</li>
+              <li>
+                Built a clinic queue management portfolio app: online
+                appointment booking with serial number assignment, real-time
+                waiting room display board, and multi-role doctor/compounder
+                dashboard.
+              </li>
+              <li>
+                Implemented WebSocket-based real-time sync so queue updates from
+                the dashboard instantly reflect on all connected screens with
+                current and next patient names.
+              </li>
+              <li>
+                Built a device-based rate limiting system (one appointment per
+                device per day) and ordered queue engine to prevent duplicate or
+                out-of-order entries.
+              </li>
+              <li>Multi-role RBAC supporting Doctor, Compounder</li>
+              <li>Dashboard password 132580</li>
             </ul>
 
             <div className="flex flex-wrap gap-2 text-[11px] text-gray-300">
@@ -177,6 +222,14 @@ function Portfolio() {
                 className="hover:underline"
               >
                 Live Demo
+              </a>
+
+              <a
+                target="_blank"
+                href="https://doctor-queue-system.vercel.app"
+                className="hover:underline"
+              >
+                Live Dashboard
               </a>
             </div>
           </div>

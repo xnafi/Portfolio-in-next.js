@@ -6,8 +6,6 @@ import Header from "@/component/Header";
 import Nav from "@/component/Nav";
 import Portfolio from "@/component/Portfolio";
 import JobExperience from "@/component/Services";
-import Testimonial from "@/component/Testimonial";
-import React from "react";
 
 export default function Home() {
   return (
@@ -18,7 +16,6 @@ export default function Home() {
       <Experience />
       <JobExperience />
       <Portfolio />
-      <Testimonial />
       <Contact />
       <Footer />
     </>
