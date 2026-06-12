@@ -1,0 +1,36 @@
+"use client";
+
+import { motion } from "framer-motion";
+
+const EASE = [0.25, 0.46, 0.45, 0.94];
+
+export const fadeUp = {
+  hidden: { opacity: 0, y: 24 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: EASE } },
+};
+
+export const staggerContainer = {
+  hidden: {},
+  visible: { transition: { staggerChildren: 0.08 } },
+};
+
+export function Reveal({ children, className, delay = 0 }) {
+  return (
+    <motion.div
+      className={className}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-80px" }}
+      variants={{
+        hidden: { opacity: 0, y: 24 },
+        visible: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.5, ease: EASE, delay },
+        },
+      }}
+    >
+      {children}
+    </motion.div>
+  );
+}

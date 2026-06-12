@@ -1,22 +1,22 @@
-import About from "@/component/About";
-import Contact from "@/component/Contact";
-import Experience from "@/component/Experience";
-import Footer from "@/component/Footer";
-import Header from "@/component/Header";
-import Nav from "@/component/Nav";
-import Portfolio from "@/component/Portfolio";
-import JobExperience from "@/component/Services";
+import Navbar from "@/components/navbar";
+import Hero from "@/components/hero";
+import Work from "@/components/work";
+import Experience from "@/components/experience";
+import About from "@/components/about";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <JobExperience />
-      <Portfolio />
-      <Contact />
+      <Navbar />
+      <main>
+        <Hero />
+        <Work />
+        <Experience />
+        <About />
+        <Contact />
+      </main>
       <Footer />
     </>
   );
